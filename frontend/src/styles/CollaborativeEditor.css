@@ -1,0 +1,23 @@
+/* src/styles/CollaborativeEditor.css */
+
+.editor-wrapper {
+  min-height: 80vh;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.ProseMirror {
+  min-height: 70vh;
+  outline: none;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.ProseMirror p {
+  margin-bottom: 0.75rem;
+}
+
+.ProseMirror-focused {
+  border: none;
+}
